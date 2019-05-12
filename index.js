@@ -1,4 +1,4 @@
-module.exports = (input = {}, output = '', link = '') => {
+module.exports = (input = {}, output = '') => {
     let domain = input.domain
         ? input.domain
         : input.url && /^http/i.test(input.url)
@@ -53,7 +53,7 @@ module.exports = (input = {}, output = '', link = '') => {
     }
 
     if (!code) return '';
-    if (link) return link.replace('[code]', code);
+    if (input.iframe) return input.iframe.replace('[code]', code);
 
     if (/upvid/i.test(domain)) {
         return 'https://upvid.co/embed-' + code + '.html';

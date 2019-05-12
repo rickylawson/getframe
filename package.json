@@ -1,6 +1,6 @@
 {
   "name": "getframe",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Getting embed code of all video storage.",
   "main": "index.js",
   "keywords": [
