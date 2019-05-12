@@ -1,0 +1,28 @@
+{
+  "name": "getframe",
+  "version": "0.0.1",
+  "description": "Getting embed code of all video storage.",
+  "main": "index.js",
+  "keywords": [
+    "iframe",
+    "embed",
+    "cdn",
+    "storage",
+    "gulfstream"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rickylawson/getframe.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rickylawson/getframe/issues"
+  },
+  "homepage": "https://gulfstream.to",
+  "devDependencies": {
+    "mocha": "6.1.4"
+  }
+}
